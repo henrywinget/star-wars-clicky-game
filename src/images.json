@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Yoda",
+    "source": "./assets/images/yoda.png",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "Mace Windu",
+    "source": "./assets/images/windu.png",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "Darth Vader",
+    "source": "./assets/images/vader.png",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "Rey",
+    "source": "./assets/images/rey.png",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "Kylo Ren",
+    "source": "./assets/images/ren.png",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "Qui-Gon Jinn",
+    "source": "./assets/images/qui.png",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "Darth Sidious",
+    "source": "./assets/images/palp.png",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "Obi-Wan Kenobi",
+    "source": "./assets/images/obi.png",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "Darth Maul",
+    "source": "./assets/images/maul.png",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "name": "Luke Skywalker",
+    "source": "./assets/images/luke.png",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "name": "Asajj Ventress",
+    "source": "./assets/images/asajj.png",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "name": "Count Dooku",
+    "source": "./assets/images/dooku.png",
+    "clicked": false
+  }
+]
