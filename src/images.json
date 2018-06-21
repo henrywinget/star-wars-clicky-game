@@ -62,7 +62,7 @@
   {
     "id": 11,
     "name": "Asajj Ventress",
-    "source": "./assets/images/asajj.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/asajj.png?raw=true",
     "clicked": false
   },
   {
