@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg'
-import Images from './components/images'
+import logo from './logo.svg';
+import images from './images.json';
+import Image from './components/Images';
 import './App.css';
 
 
 class App extends Component {
   
-  constructor() {
-    super();
-    this.state = {
-      images: []
-    }
+  state = {
+    score: 0,
+    highScore: 0,
+    images,
+    message: "Click a picture to begin. This is a memory game; click the same one twice and you lose!"
   }
 
-  componentWillMount(){
-    this.setState({images})
-  }
+  // componentWillMount(){
+  //   this.setState({images})
+  // }
 
   render() {
     return (
@@ -25,7 +26,7 @@ class App extends Component {
           <h1 className="App-title">Star Wars Clicky Game!</h1>
           <p>What else would you expect?</p>
         </header>
-        <Images images = {this.state.images}/>
+        <Image images = {this.state.images}/>
       </div>
     );
   }

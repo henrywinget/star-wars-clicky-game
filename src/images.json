@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "Yoda",
-    "source": "./assets/images/yoda.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/yoda.png?raw=true",
     "clicked": false
   },
   {
     "id": 2,
     "name": "Mace Windu",
-    "source": "./assets/images/windu.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/windu.png?raw=true",
     "clicked": false
   },
   {
     "id": 3,
     "name": "Darth Vader",
-    "source": "./assets/images/vader.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/vader.png?raw=true",
     "clicked": false
   },
   {
     "id": 4,
     "name": "Rey",
-    "source": "./assets/images/rey.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/rey.png?raw=true",
     "clicked": false
   },
   {
     "id": 5,
     "name": "Kylo Ren",
-    "source": "./assets/images/ren.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/ren.png?raw=true",
     "clicked": false
   },
   {
     "id": 6,
     "name": "Qui-Gon Jinn",
-    "source": "./assets/images/qui.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/qui.png?raw=true",
     "clicked": false
   },
   {
     "id": 7,
     "name": "Darth Sidious",
-    "source": "./assets/images/palp.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/palp.png?raw=true",
     "clicked": false
   },
   {
     "id": 8,
     "name": "Obi-Wan Kenobi",
-    "source": "./assets/images/obi.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/kenobi.png?raw=true",
     "clicked": false
   },
   {
     "id": 9,
     "name": "Darth Maul",
-    "source": "./assets/images/maul.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/maul.png?raw=true",
     "clicked": false
   },
   {
     "id": 10,
     "name": "Luke Skywalker",
-    "source": "./assets/images/luke.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/luke.png?raw=true",
     "clicked": false
   },
   {
@@ -68,7 +68,7 @@
   {
     "id": 12,
     "name": "Count Dooku",
-    "source": "./assets/images/dooku.png",
+    "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/dooku.png?raw=true",
     "clicked": false
   }
 ]
