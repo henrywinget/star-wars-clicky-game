@@ -6,7 +6,7 @@ import './App.css';
 
 
 class App extends Component {
-  
+
   state = {
     score: 0,
     highScore: 0,
@@ -14,9 +14,6 @@ class App extends Component {
     message: "Click a picture to begin. This is a memory game; click the same one twice and you lose!"
   }
 
-  // componentWillMount(){
-  //   this.setState({images})
-  // }
 
   render() {
     return (
@@ -26,7 +23,20 @@ class App extends Component {
           <h1 className="App-title">Star Wars Clicky Game!</h1>
           <p>What else would you expect?</p>
         </header>
-        <Image images = {this.state.images}/>
+        <div className="container-fluid ">
+        <div className = "row">
+          {this.state.images.map(image => (
+            <Image
+
+              id={image.id}
+              key={image.id}
+              name={image.name}
+              source={image.source}
+              clicked={image.clicked}
+            />
+          ))}
+          </div>
+        </div>
       </div>
     );
   }
