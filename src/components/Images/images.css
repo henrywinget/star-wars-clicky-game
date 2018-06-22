@@ -1,17 +1,18 @@
-.card {
+.col-md-3 {
   background: #fff;
   border-radius: 2px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
   justify-content: center;
+  
 }
 
-.card>.img-container {
+.col-md-3>.image {
   overflow: hidden;
   text-align: center;
   justify-content: center;  
 }
 
-.card>.img-container>img {
-  width: 150px;   
+.col-md-3>.image>img {
+  width: 200px;   
 }
