@@ -1,8 +1,10 @@
 {
   "name": "star-wars-clicky-game",
+  "homespage": "https://henrywinget.github.io/star-wars-clicky-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
@@ -11,7 +13,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "engines": {
+    "node": "10.15.3",
+    "yarn": "^1.7.0"
   },
   "devDependencies": {
     "webpack": "^4.12.0",
