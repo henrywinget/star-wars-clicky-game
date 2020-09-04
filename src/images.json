@@ -3,71 +3,83 @@
     "id": 1,
     "name": "Yoda",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/yoda.png?raw=true",
+    "color": "green",
     "clicked": false
   },
   {
     "id": 2,
     "name": "Mace Windu",
+    "color": "purple",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/windu.png?raw=true",
     "clicked": false
   },
   {
     "id": 3,
     "name": "Darth Vader",
+    "color": "red",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/vader.png?raw=true",
     "clicked": false
   },
   {
     "id": 4,
     "name": "Rey",
+    "color": "blue",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/rey.png?raw=true",
     "clicked": false
   },
   {
     "id": 5,
     "name": "Kylo Ren",
+    "color": "red",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/ren.png?raw=true",
     "clicked": false
   },
   {
     "id": 6,
     "name": "Qui-Gon Jinn",
+    "color": "green",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/qui.png?raw=true",
     "clicked": false
   },
   {
     "id": 7,
     "name": "Darth Sidious",
+    "color": "red",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/palp.png?raw=true",
     "clicked": false
   },
   {
     "id": 8,
     "name": "Obi-Wan Kenobi",
+    "color": "blue",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/kenobi.png?raw=true",
     "clicked": false
   },
   {
     "id": 9,
     "name": "Darth Maul",
+    "color": "red",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/maul.png?raw=true",
     "clicked": false
   },
   {
     "id": 10,
     "name": "Luke Skywalker",
+    "color": "blue",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/luke.png?raw=true",
     "clicked": false
   },
   {
     "id": 11,
     "name": "Asajj Ventress",
+    "color": "red",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/asajj.png?raw=true",
     "clicked": false
   },
   {
     "id": 12,
     "name": "Count Dooku",
+    "color": "red",
     "source": "https://github.com/henrywinget/star-wars-clicky-game/blob/master/public/assets/images/dooku.png?raw=true",
     "clicked": false
   }

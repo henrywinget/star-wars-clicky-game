@@ -1,24 +1,33 @@
-.col-md-3 {
+.image-container {
   background: black;
   /* border-radius: 2px; */
   /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
   text-align: left;
   padding: 5px;
-  justify-content: center;
-  
-}
-
-.col-md-3>.image {
-  overflow: hidden;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;  
 }
 
-.col-md-3>.image>img {
-  width: 200px;   
+.image-container>.image {
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.image-container>.image {
+  width: 250px;   
+}
+
+@media only screen and (max-width: 600px) {
+  .image-container>.image {
+    width: 100px;  
+  }
 }
 
 img {
   cursor: pointer;
   border-radius: 5px;
+  width: 100%;
 }

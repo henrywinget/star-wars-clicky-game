@@ -13,7 +13,7 @@ class App extends Component {
     score: 0,
     highScore: 0,
     images,
-    message: "Click a picture to begin. This is a memory game; click the same one twice and you lose!"
+    message: "MEMORY GAME"
   }
 
   // When the user guesses incorrectly, end game
@@ -24,12 +24,13 @@ class App extends Component {
       }, () => console.log(this.state.highScore));
     }
 
-    this.state.images.forEach(image => {
-      image.clicked = false
+    const images = this.state.images.map(image => {
+      image.clicked = false;
+      return image;
     });
 
     alert("Game over. Want to play again?");
-    this.setState({ score: 0 });
+    this.setState({ images, score: 0 });
     return true;
   }
 
@@ -41,17 +42,14 @@ class App extends Component {
 
       if (image.id === id) {
         // If the image at the index has has not been clicked, change it to clicked
-        if (images[index].clicked === false) {
-          images[index].clicked = true;
-
-          // Update the score with each successful click
-          this.setState({ score: this.state.score + 1 }, function () {
-            console.log(this.state.score);
-          });
-
+        if (!image.clicked) {
+          image.clicked = true;
           // Rearrange the images
 
-          this.state.images.sort(() => Math.random() - 0.5);
+          const images = this.state.images.sort(() => Math.random() - 0.5);
+          // Update the score with each successful click
+          this.setState({ score: this.state.score + 1, images: [...images] }, () => console.log(this.state.score));
+
           return true;
         }
         // Else, end the game
@@ -67,18 +65,18 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Star Wars Clicky Game!</h1>
-          <p>{this.state.score === 0 ? this.state.message :
+          <h1 className="App-title">STAR WARS</h1>
+          <p className="App-rules">{this.state.score === 0 ? this.state.message :
             this.state.score > 0 ? "Don't mess up!" : null}</p>
         </header>
-
-        <div className="container">
+        <div className="container game-area">
           <div className="row images-row">
             {this.state.images.map(image => (
               <Image
                 id={image.id}
                 key={image.id}
                 name={image.name}
+                color={image.color}
                 source={image.source}
                 clicked={this.clicked}
               />

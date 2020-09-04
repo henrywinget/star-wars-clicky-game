@@ -1,6 +1,13 @@
 .App {
   text-align: center;
-  background: black;
+  /* background: black; */
+  background: linear-gradient(black 25%, rgb(19, 19, 19) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 .App-logo {
@@ -9,10 +16,11 @@
 }
 
 .App-header {
-  background-color: #222;
+  /* background-color: #222; */
   height: 93px;
   padding: 20px;
-  color: white;
+  color: yellow;
+  margin-bottom: 15px;
 }
 
 .App-title {
@@ -26,4 +34,23 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.images-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .App-rules {
+    font-size: 7px; 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App-rules {
+    font-size: 8px; 
+  }
 }
